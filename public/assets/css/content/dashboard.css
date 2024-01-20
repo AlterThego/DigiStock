@@ -1,0 +1,19 @@
+/* .chart-container {
+    position: relative;
+    text-align: center;
+}
+
+.percentage-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .percentage-text {
+        font-size: 14px;
+    }
+} */
+
