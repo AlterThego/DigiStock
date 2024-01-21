@@ -63,8 +63,8 @@
                             </a>
 
                             <a href="/welcome" class="nav__link">
-                                <svg xmlns="http://www.w3.org/2000/svg" class='bx nav__icon' width="20" height="220"
-                                    viewBox="0 0 24 24">
+                                <svg xmlns="http://www.w3.org/2000/svg" class='bx nav__icon' width="20"
+                                    height="220" viewBox="0 0 24 24">
                                     <path fill="currentColor"
                                         d="M10 23v-2H5q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h5V1h2v22zm-5-5h5v-6zm9 3v-9l5 6V5h-5V3h5q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21z" />
                                 </svg>
@@ -73,8 +73,8 @@
 
                             <div class="nav__dropdown" id="healthDropdown">
                                 <a href="#" class="nav__link" onclick="toggleDropdown('healthDropdown')">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class='bx nav__icon' width="20" height="20"
-                                        viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class='bx nav__icon' width="20"
+                                        height="20" viewBox="0 0 16 16">
                                         <path fill="currentColor" fill-rule="evenodd"
                                             d="M7.999 1a.75.75 0 0 1 .715.521L12 11.79l1.286-4.018A.75.75 0 0 1 14 7.25h1.25a.75.75 0 0 1 0 1.5h-.703l-1.833 5.729a.75.75 0 0 1-1.428 0L8.005 4.226l-2.29 7.25a.75.75 0 0 1-1.42.03L3.031 8.03l-.07.208a.75.75 0 0 1-.711.513H.75a.75.75 0 0 1 0-1.5h.96l.578-1.737a.75.75 0 0 1 1.417-.02L4.95 8.919l2.335-7.394A.75.75 0 0 1 7.999 1"
                                             clip-rule="evenodd" />
@@ -114,7 +114,7 @@
 
                                 <div class="nav__dropdown-collapse">
                                     <div class="nav__dropdown-content">
-                                        <a href="/benguetlivestock/frontend/animal-population.php"
+                                        <a href="/animals"
                                             class="nav__dropdown-item">Population</a>
                                         <a href="/benguetlivestock/frontend/animal-trend.php"
                                             class="nav__dropdown-item">Trend</a>
@@ -124,8 +124,8 @@
 
                             <div class="nav__dropdown" id="petsDropdown">
                                 <a href="#" class="nav__link" onclick="toggleDropdown('petsDropdown')">
-                                    <svg xmlns="/benguetlivestock/assets/images/dog.svg" class='bx nav__icon' width="20"
-                                        height="20" viewBox="0 0 256 256">
+                                    <svg xmlns="/benguetlivestock/assets/images/dog.svg" class='bx nav__icon'
+                                        width="20" height="20" viewBox="0 0 256 256">
                                         <path fill="currentColor"
                                             d="M108 136a16 16 0 1 1-16-16a16 16 0 0 1 16 16m56-16a16 16 0 1 0 16 16a16 16 0 0 0-16-16m68.24 26.18a20.42 20.42 0 0 1-8.41 1.85a19.59 19.59 0 0 1-3.83-.39V184a44.05 44.05 0 0 1-44 44H80a44.05 44.05 0 0 1-44-44v-36.37a19 19 0 0 1-3.85.39a20.31 20.31 0 0 1-8.39-1.84a19.71 19.71 0 0 1-11.4-21.9l16.42-88a20 20 0 0 1 24.51-15.69l.47.13l52 15.27h44.54l52-15.27l.47-.13a20 20 0 0 1 24.51 15.72l16.42 88a19.71 19.71 0 0 1-11.46 21.87m-60-91.63L217 112.42l-12.56-67.33ZM39 112.42l44.76-57.87l-32.2-9.46ZM196 184v-59.52L146.11 60h-36.22L60 124.48V184a20 20 0 0 0 20 20h36v-7l-12.48-12.49a12 12 0 0 1 17-17L128 175l7.51-7.52a12 12 0 0 1 17 17L140 197v7h36a20 20 0 0 0 20-20" />
                                     </svg>
@@ -206,8 +206,8 @@
 
                             <div class="nav__dropdown" id="fisheryDropdown">
                                 <a href="#" class="nav__link" onclick="toggleDropdown('fisheryDropdown')">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class='bx nav__icon' width="20" height="20"
-                                        viewBox="0 0 48 48">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class='bx nav__icon' width="20"
+                                        height="20" viewBox="0 0 48 48">
                                         <defs>
                                             <mask id="ipSFishOne0">
                                                 <g fill="none">
@@ -274,11 +274,12 @@
     <script src="./assets/js/chart-js/dashboard-chart.js"></script>
 
     <!-- Save State of Page Script -->
-    <script src="./assets/js/save-state.js"></script>
+    <script src="assets/js/save-state.js"></script>
     <!-- Sidebar Responsive Script -->
-    <script src="./assets/js/sidebar.js"></script>
+    <script src="assets/js/sidebar.js"></script>
     <!-- Dropdown Script -->
-    <script src="./assets/js/dropdown.js"></script>
+    <script src="assets/js/dropdown.js"></script>
+
 </body>
 
 </html>
